@@ -39,6 +39,7 @@ class _MovieSuggestionsState extends State<MovieSuggestions> {
                 return MovieTile(movie: widget.movieList[index]);
               }),
         ),
+        
       ],
     );
   }

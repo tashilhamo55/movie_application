@@ -3,11 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:movies/hoc/home_layout.dart';
 import 'package:movies/providers/count_provider.dart';
 import 'package:movies/providers/movie_provider.dart';
-import 'package:movies/screens/movie/movie.dart';
 import 'package:provider/provider.dart';
 
-import 'screens/count_screen.dart';
-import 'screens/movie/trending_movie_screen.dart';
 
 void main() {
   runApp(const MyApp());
